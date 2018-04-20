@@ -1,0 +1,365 @@
+html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #fff;
+    background-color: #00041F;
+    overflow:hidden;
+}
+#main{
+	width:96%;
+	height: 96%;
+ 	position:absolute;
+    left:0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: url(../image/beijingdakuang.png);
+    background-size:100% 100%;
+}
+#title{
+	font-size: 15px;
+	text-align: center;
+	margin-top: -2%;
+}
+.content{
+	width: 100%;
+	height: 100%;
+	margin-top: -2%;
+}
+#date{
+	text-align: center;
+	margin-top: 2.6%;
+}
+#date input{
+	background-color: #00041F;
+	color:#0088FB;
+	width: 140px;
+	height: 20px;
+	border-color: #0088FB;
+	text-align: center;
+	cursor: pointer;
+}
+.top{
+	width:98%;
+	height: 23%;
+	margin-left:1.5%;
+	margin-top:1%;
+}
+.top .left{
+	float:left;
+	width:32%;
+	height: 100%;
+	background: url(../image/topkuang.png);
+    background-size:100% 100%;
+}
+.title1{
+	text-align: center;
+	margin-top: -20px; 
+}
+.content1{
+	width: 100%;
+	height: 100%;
+	margin-top: -30px;
+}
+#barChart{
+	width: 100%;
+	height: 100%;
+}
+.top .center{
+	float:left;
+	width:32%;
+	height: 100%;
+	margin-left: 1.5%;
+	background: url(../image/topkuang.png);
+    background-size:100% 100%;
+}
+.top .right{
+	float:right;
+	width:32%;
+	height: 100%;
+	margin-right: 1%;
+	background: url(../image/topkuang.png);
+    background-size:100% 100%;
+}
+#pieChart{
+	width: 100%;
+	height: 100%;
+}
+.middle{
+	float:left;
+	width:97%;
+	height: 33%;
+	margin-left:1.5%;
+	margin-top:1%;
+	background: url(../image/zhongkuang.png);
+    background-size:100% 100%;
+}
+.title2{
+	text-align: center;
+	margin-top: -20px;
+}
+.content2{
+	width: 100%;
+	height: 100%;
+	margin-top: -35px;
+}
+.bottom{
+	float:left;
+	width:97%;
+	height: 25%;
+	margin-left:1.5%;
+	margin-top:1%;
+	background: url(../image/zhongkuang.png);
+    background-size:100% 100%;
+}
+.top .center .eachSurvey{
+	float: left;
+	width:50%;
+}
+#xiangmuzongshu .icon{
+	width:35px;
+	height:35px;
+	background: url(../image/xiangmuzongshu.png);
+    background-size:100% 100%;
+}
+#bili .icon{
+	width:35px;
+	height:35px;
+	background: url(../image/wanchengbili.png);
+    background-size:100% 100%;
+}
+#xiangmu .icon{
+	width:35px;
+	height:35px;
+	background: url(../image/yanqixiangmu.png);
+    background-size:100% 100%;
+}
+#yujing .icon{
+	width:35px;
+	height:35px;
+	background: url(../image/yanqijinggao.png);
+    background-size:100% 100%;
+}
+.eachSurvey .icon{
+	float:left;
+	padding: 5px;
+	margin-left: 20%;
+	margin-top: 8%;
+}
+.eachSurvey .nav1{
+	float:left;
+	width:30%;
+	margin-top: 10%;
+	margin-left: 5%;
+}
+.eachSurvey .num{
+	float:left;
+	width:30%;
+	margin-left: 5%;
+}
+#xiangmuzongshu .num{
+	color:#FF3866;
+}
+#bili .icon-bili{
+	color:#39ED97;
+	font-size: 40px;
+}
+#bili .num{
+	color:#39ED97;
+}
+#xiangmu .num{
+	color:#20AEFF;
+}
+#yujing .num{
+	color:#FDAE34;
+}
+#project{
+	height: 21%;
+}
+#project .eachProject{
+	width:auto !important;
+	float:left;
+	margin-top: 20px;
+	/* margin-left: 30px; */
+	cursor: pointer;
+	margin-right:30px !important;
+}
+#project1{
+	margin-left: 60px;
+}
+.eachProject{
+	/* margin-left: -30px; */
+	font-size: 10px;
+}
+#project .curProject{
+	color:#09E9DF;
+}
+#project .eachProject .name,.percent,.percentNum{
+	float:left;
+	margin-left: 5px;
+	height: 22px;
+	line-height: 22px;
+}
+#project .eachProject .percent{
+	width:106px;
+	height:20px;
+	border:1px solid #0088FB;
+}
+.dataline{
+	float:left;
+	width:6px;
+	height:14px;
+	margin-top:3px;
+	border-left:4px solid #00D4CA;
+}
+#barChart1{
+	width: 100%;
+	height:75%;
+	margin-top: 5px;	
+}
+.resourcePool{
+	width:31%;
+	height: 85%;
+	float:left;
+	margin-top: 1.5%;
+	margin-left: 1.5%;
+}
+.resourcePool .region{
+	float:left;
+	border-top: 1px solid #0088FB;
+	border-left: 1px solid #0088FB;
+	border-right: 1px solid #0088FB;
+	width: 15%;
+	height: 15%;
+	background-color: #0a153B; 
+	text-align: center;
+}
+.resourcePool .content3{
+	float:left;
+	width: 84%;
+	height: 15%;
+	border-bottom: 1px solid #0088FB;
+}
+.resourcePool .content4{
+	float:left;
+	border-bottom: 1px solid #0088FB;
+	border-left: 1px solid #0088FB;
+	border-right: 1px solid #0088FB;
+	width: 99%;
+	height: 80%;
+	background-color: #0a153B;
+}
+.mainEquipment{
+	font-size:10px;
+	width:70px;
+	height:80px;
+	float:left;
+	padding: 5px;
+	margin-top: 3%;
+	margin-left: 5%;
+	background: url(../image/xianeirongkuang.png);
+    background-size:100% 100%;
+}
+.eachEquipment{
+	font-size: 10px;
+	margin-top: 5px;
+}
+.cabinetAndServerPercent{
+	float:left;
+	width:50px;
+	height: 85px;
+	border: 1px solid #00FFB2;
+	margin-top: 3%;
+	margin-left: 20px;
+	
+}
+.cabinetAndServerPercent1{
+	width:40px;
+	height: 75px;
+	border: 1px solid #00FFB2;
+	margin-top: 4px;
+	margin-left: 4px;
+}
+.batteryPercent{
+	float:left;
+	width:40px;
+	height: 60px;
+	margin-top: 35px;
+	background: url(../image/battery.png);
+	background-size:100% 100%;
+}
+.batteryPercent1{
+	width:14px;
+	height: 50px;
+	margin-top: 6px;
+	margin-left: 14px;
+}
+.networkEquipment{
+	font-size:10px;
+	width:50px;
+	height: 50px;
+	float:left;
+	background: url(../image/neirongkuangxiao.png);
+    background-size:100% 100%;
+	padding: 10px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.NEPercent{
+	float:left;
+	width:50px;
+	height: 85px;
+	border: 1px solid #00FFB2;
+	margin-top: 3%;
+	margin-left: 20px;
+}
+.NEPercent1{
+	width:40px;
+	height: 75px;
+	border: 1px solid #00FFB2;
+	margin: auto;
+	margin-top: 5px;
+}
+.dataline1{
+	width:30px;
+	height:8px;
+	margin-top:4px;
+	margin-left:5px;
+	border:1px solid #00FFB2;
+	border-radius:5px;
+}
+.dataline2{
+	width:30px;
+	height:8px;
+	margin-top:4px;
+	margin-left:5px;
+	border:1px solid #00FFB2;
+	border-radius:5px;
+	background: url(../image/jinduman1.png);
+    background-size:100% 100%;
+}
+.dataline3{
+	width:40px;
+	height:10px;
+	margin-top:4px;
+	background: url(../image/jindukong.png);
+    background-size:100% 100%;
+}
+.dataline4{
+	width:40px;
+	height:10px;
+	margin-top:4px;
+	background: url(../image/jinduman.png);
+    background-size:100% 100%;
+}
