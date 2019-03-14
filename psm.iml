@@ -22,6 +22,6 @@
         <jarDirectory url="file://$MODULE_DIR$/WebRoot/WEB-INF/lib" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="servlet-api" level="project" />
+    <orderEntry type="library" name="servlet-api" level="application" />
   </component>
 </module>
