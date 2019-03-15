@@ -1,8 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="psm">
+  <artifact type="exploded-war" name="psm">
     <output-path>$PROJECT_DIR$/out/artifacts/psm</output-path>
-    <root id="archive" name="psm.war">
-      <element id="javaee-facet-resources" facet="psm/web/Web" />
+    <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="psm" />
@@ -63,6 +62,7 @@
           <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-instrument-tomcat-3.2.1.RELEASE.jar" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="psm/web/Web" />
     </root>
   </artifact>
 </component>
